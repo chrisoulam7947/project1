@@ -2,12 +2,16 @@ body {
     background-image: url("birthday1.jpg");
     background-size: cover;
 }
-h1{
-font-family: 'Indie Flower', cursive;
-font-style: normal;
-font-weight: 400;
-color:white;
-text-align: center;
-font-size:60px;
-    
+
+h1 {
+    font-family: 'Indie Flower', cursive;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    border-style: solid;
+    border-width: medium;
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+     text-shadow: 2px 2px black;
 }
