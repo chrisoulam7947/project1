@@ -15,3 +15,9 @@ h1 {
     background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
      text-shadow: 2px 2px black;
 }
+img {
+   border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
