@@ -3,7 +3,11 @@ body {
     background-size: cover;
 }
 h1{
-    font-family: 'Indie Flower', cursive;
-   
+font-family: 'Indie Flower', cursive;
+font-style: normal;
+font-weight: 400;
+color:white;
+text-align: center;
+font-size:60px;
     
 }
