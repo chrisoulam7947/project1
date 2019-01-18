@@ -3,8 +3,8 @@ body {
     background-size:cover;
 }
 body:hover{
-       background-image: initial;
-       background-color: black;
+       background-image: initial; 
+       background-color: black;  
        background-size: cover;
        background-repeat:no-repeat
 }
@@ -34,7 +34,7 @@ img {
     bottom:0;
     animation-name: Gift;
     animation-iteration-count: infinite;
-    animation-duration: 5s;
+    animation-duration: 5s; /* speed of how fast the animation goes*/
     -webkit-animation-name: Gift;
     
 }
