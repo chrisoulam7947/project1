@@ -1,6 +1,6 @@
 body {
-    background-image: url("birthday1.jpg");
-    background-size: cover;
+    background-image: url("birthday.gif");
+    background-size:cover;
 }
 
 h1 {
@@ -13,11 +13,13 @@ h1 {
     border-style: solid;
     border-width: medium;
     background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
-     text-shadow: 2px 2px black;
+    text-shadow: 2px 2px black;
 }
+
 img {
-   border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 150px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+
 }
