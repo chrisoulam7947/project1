@@ -2,6 +2,12 @@ body {
     background-image: url("birthday.gif");
     background-size:cover;
 }
+body:hover{
+       background-image: initial;
+       background-color: black;
+       background-size: cover;
+       background-repeat:no-repeat
+}
 
 h1 {
     font-family: 'Indie Flower', cursive;
@@ -22,4 +28,19 @@ img {
     padding: 5px;
     width: 150px;
 
+}
+#Gift{
+    position:fixed;
+    bottom:0;
+    animation-name: Gift;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    -webkit-animation-name: Gift;
+    
+}
+    @keyframes Gift {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
 }
